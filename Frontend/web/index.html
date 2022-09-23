@@ -1,0 +1,30 @@
+<!-- Simple video chat app. Developed by : Ragul.H -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h3>Simple Peer to Peer Video Chat App</h3>
+        <p id="peer-id">Peer id : Null</p>
+        <div class="display">
+            <video id="self" width="600" height="400" autoplay muted></video>
+            <video id="peer" width="600" height="400" autoplay muted></video>
+        </div>
+        <div class="input-box">
+            <input id="code" type="text"/>
+            <button id="connect">Connect</button>
+            <button id="share">Share Screen</button>
+        </div>
+        <p>Developed by : Ragul.H</p>
+    </div>
+</body>
+</html>
