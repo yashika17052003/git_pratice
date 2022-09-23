@@ -1,4 +1,4 @@
-# simple_video_chat_app
+# Simple Video Chat App
 Simple video chat application developed for testing Docker deployment.
 
 Developed By: Ragul.H
